@@ -1,0 +1,40 @@
+.alnber{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.nbe1{
+   
+    display:grid;
+    grid-template-columns:0.1fr 0.2fr 1fr;   
+}
+.n1{
+    border-radius:20px;
+    background-color: green;
+}
+.tools{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: bisque;
+    height: 400px;
+    padding: 20px;
+}
+.tools img{
+    width: 90px;
+    height: 80px;
+}
+.bts{
+    display: grid;
+    grid-template-columns: 0.1fr 2fr;
+    background-color: black;
+    height: 50px;
+    margin-top: -10px;
+
+}
+button{
+    background-color:aqua;
+    text-align: center;
+    margin-left: 600px;
+}
+.new{
+    background-color: orange;
+}
