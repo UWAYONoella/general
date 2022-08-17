@@ -38,3 +38,9 @@ button{
 .new{
     background-color: orange;
 }
+.toolNber{
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    color: red;
+}
