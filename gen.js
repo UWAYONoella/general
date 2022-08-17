@@ -15,7 +15,7 @@ function contain(){
         const mage=e.target.getAttribute("src");
         const ide=e.target.getAttribute("id");
         function Photos(src,id){
-            this.mage=mage;
+            this.src=src;
             this.id=id;
         }
         const photo=new Photos(mage,ide);
@@ -31,11 +31,12 @@ contain();
 button.addEventListener("click",(e)=>{
 currenttag++;
 num[currenttag].classList.add("new");
-// for(let i=0;i<myId.length;i++);{
-//     let nem=myId[i];
-    // tool.innerHTML=`${myId[0].mage}`;
+tool.innerHTML="";
+for(let i=0;i<myId.length;i++){
+    let tools=myId[i].src;
+    tool.innerHTML+=`<img src=${tools}>`;
 
-// }
+}
 
 })
 
